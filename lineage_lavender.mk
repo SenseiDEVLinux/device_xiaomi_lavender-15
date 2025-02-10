@@ -33,6 +33,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V11.0.1.0.QFGMIXM/release-keys \
     DeviceProduct=lavender
 
+# EvolutionX Features
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := false
+BUILD_BCR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier
 PRODUCT_NAME := lineage_lavender
 PRODUCT_MANUFACTURER := Xiaomi
