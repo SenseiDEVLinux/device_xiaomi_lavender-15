@@ -25,7 +25,7 @@
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -33,8 +33,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V11.0.1.0.QFGMIXM/release-keys \
     DeviceProduct=lavender
 
+# Device features
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_GAPPS:= true
+
 # Device identifier
-PRODUCT_NAME := lineage_lavender
+PRODUCT_NAME := yaap_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
