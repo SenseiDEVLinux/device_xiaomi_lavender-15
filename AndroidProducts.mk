@@ -29,6 +29,3 @@ PRODUCT_MAKEFILES := \
     lineage_lavender-user \
     lineage_lavender-userdebug \
     lineage_lavender-eng
-    lineage_lavender-user \
-    lineage_lavender-userdebug \
-    lineage_lavender-eng
