@@ -38,6 +38,7 @@ TARGET_USES_PICO_GAPPS := true
 TARGET_ENABLE_BLUR := false
 BUILD_BCR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
 PRODUCT_NAME := lineage_lavender
